@@ -1,18 +1,20 @@
-void main() {
-  String alphabet = 'a'; // Change this to read the alphabet from the user
+import 'dart:io';
 
-  if (alphabet == 'a' ||
-      alphabet == 'e' ||
-      alphabet == 'i' ||
-      alphabet == 'o' ||
-      alphabet == 'u' ||
-      alphabet == 'A' ||
-      alphabet == 'E' ||
-      alphabet == 'I' ||
-      alphabet == 'O' ||
-      alphabet == 'U') {
-    print('$alphabet is a vowel');
+void main() {
+  stdout.write("write vowel: ");
+  var userinput = stdin.readLineSync();
+  if (userinput == 'a' ||
+      userinput == 'e' ||
+      userinput == 'i' ||
+      userinput == 'o' ||
+      userinput == 'u' ||
+      userinput == 'A' ||
+      userinput == 'E' ||
+      userinput == 'I' ||
+      userinput == 'O' ||
+      userinput == 'U') {
+    print('$userinput is a vowel');
   } else {
-    print('$alphabet is a consonant');
+    print('$userinput is a consonant');
   }
 }
