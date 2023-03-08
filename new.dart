@@ -34,10 +34,51 @@
 //   ;
 // }
 
+// void main() {
+//   List users = ["asad", "fahad", "Nabeel", "raza"];
+//   users = List.of(users.reversed);
+//   for (var i = 0; i < users.length; i++) {
+//     print(users[i]);
+//   }
+// }
+
+// void main() {
+//   List users = [
+//     ["owais", "23", "Male"],
+//     ["fahad", "22"],
+//     ["nasir", "26"],
+//   ];
+//   for (int i = 0; i < users.length; i++) {
+//     for (int j = 0; j < users[i].length; j++) {
+//       print("i => $i");
+//       print("j => $j");
+//       print(users[i][j]);
+//     }
+//   }
+// }
+
+// void main() {
+//   List users = [
+//     ["owais", "23", "Male"],
+//     ["fahad", "22"],
+//     ["nasir", "26"],
+//   ];
+//   for (var i in users) {
+//     for (var j in i) {
+//       print("$j");
+//     }
+//   }
+// }
+
 void main() {
-  List users = ["asad", "fahad", "Nabeel", "raza"];
-  users = List.of(users.reversed);
-  for (var i = 0; i < users.length; i++) {
-    print(users[i]);
-  }
+  user("owais", 80, 67, 59, 300, "sajid");
+  user("sabeel", 80, 67, 59, 300, "khan");
+}
+
+user(name, sub1, sub2, sub3, Total, [Section]) {
+  print(name);
+  print(sub1);
+  print(sub2);
+  print(sub3);
+  print(Section);
 }

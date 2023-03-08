@@ -44,12 +44,14 @@
 
 // i)
 
+import 'dart:io';
+
 // void main() {
-//   for (int i = 1; i <= 4; i++) {
-//     for (int j = 1; j <= 10; j++) {
-//       print('*');
+//   for (int i = 1; i <= 5; i++) {
+//     for (int j = 0; j < i; j++) {
+//       stdout.write("*");
 //     }
-//     print('\n');
+//     print('');
 //   }
 // }
 
@@ -57,7 +59,7 @@
 // void main() {
 //   for (int i = 1; i <= 5; i++) {
 //     for (int j = 1; j <= i; j++) {
-//       print('*');
+//       stdout.write("*");
 //     }
 //     print('\n');
 //   }
@@ -67,7 +69,7 @@
 // void main() {
 //   for (int i = 1; i <= 5; i++) {
 //     for (int j = 1; j <= i; j++) {
-//       print('*');
+//       stdout.write("*");
 //     }
 //     print('\n');
 //   }
@@ -131,20 +133,20 @@
 //   }
 // }
 
-// Question 8
-void main() {
-  List<int> numbers = [12, 34, 56, 16, 89, 67, 43];
-  int temp;
+// // Question 8
+// void main() {
+//   List<int> numbers = [12, 34, 56, 16, 89, 67, 43];
+//   int temp;
 
-  for (int i = 0; i < numbers.length; i++) {
-    for (int j = i + 1; j < numbers.length; j++) {
-      if (numbers[i] > numbers[j]) {
-        temp = numbers[i];
-        numbers[i] = numbers[j];
-        numbers[j] = temp;
-      }
-    }
-  }
+//   for (int i = 0; i < numbers.length; i++) {
+//     for (int j = i + 1; j < numbers.length; j++) {
+//       if (numbers[i] > numbers[j]) {
+//         temp = numbers[i];
+//         numbers[i] = numbers[j];
+//         numbers[j] = temp;
+//       }
+//     }
+//   }
 
-  print("Sorted List: $numbers");
-}
+//   print("Sorted List: $numbers");
+// }
