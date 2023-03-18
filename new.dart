@@ -70,15 +70,15 @@
 //   }
 // }
 
-void main() {
-  user("owais", 80, 67, 59, 300, "sajid");
-  user("sabeel", 80, 67, 59, 300, "khan");
-}
+// void main() {
+//   user("owais", 80, 67, 59, 300, "sajid");
+//   user("sabeel", 80, 67, 59, 300, "khan");
+// }
 
-user(name, sub1, sub2, sub3, Total, [Section]) {
-  print(name);
-  print(sub1);
-  print(sub2);
-  print(sub3);
-  print(Section);
-}
+// user(name, sub1, sub2, sub3, Total, [Section]) {
+//   print(name);
+//   print(sub1);
+//   print(sub2);
+//   print(sub3);
+//   print(Section);
+// }
